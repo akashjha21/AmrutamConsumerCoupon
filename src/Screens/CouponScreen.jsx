@@ -10,7 +10,7 @@ const CouponScreen = ({navigation}) => {
       <NavBar navigation={navigation} />
       <SearchBar />
       <View style={{alignItems:'flex-start', width:'100%', paddingHorizontal:25}}>
-      <Text style={{color:'#000000', marginVertical:30}}>Best Coupons</Text>
+      <Text style={{color:'#000000', marginTop:30, marginBottom:10}}>Best Coupons</Text>
       <Coupons discount={20} />
       <Coupons discount={40} />
       <Coupons discount={60} />
